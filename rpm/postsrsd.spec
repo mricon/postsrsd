@@ -31,7 +31,7 @@ as forwarder.
 
 
 %prep
-%setup -q -n %{name}-%{_longrel}
+%setup -q
 
 %check
 ctest -V %{?_smp_mflags}
